@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './student-entry/student-entry.component';
 import { StudentSearchComponent } from './student-search/student-search.component';
 import { StudentDeleteComponent } from './student-delete/student-delete.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentEntryComponent,
     StudentSearchComponent,
-    StudentDeleteComponent
+    StudentDeleteComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
