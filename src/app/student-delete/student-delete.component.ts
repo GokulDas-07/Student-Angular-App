@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./student-delete.component.css']
 })
 export class StudentDeleteComponent {
+  admission=""
+
+  readValues=()=>
+  {
+    let data:any={"admission":this.admission}
+    console.log(data)
+  }
 
 }

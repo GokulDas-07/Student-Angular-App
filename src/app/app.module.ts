@@ -7,6 +7,7 @@ import { StudentEntryComponent } from './student-entry/student-entry.component';
 import { StudentSearchComponent } from './student-search/student-search.component';
 import { StudentDeleteComponent } from './student-delete/student-delete.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
